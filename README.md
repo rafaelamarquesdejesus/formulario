@@ -1,29 +1,33 @@
-<!DOCTYTE html>
+<!DOCTYPE html>
 <html>
 <head>
-        <link rel="stylesheet"=href"style.css">
-        <title><title/>
- <head/>
- <body>
- <h1>Formulário de Cadastro<h1/>
- <main>
-        <form>
-                <label for="nome">NOME</label>
-                input type="text" id="nome"
-                <br>
-                <label for="endereco">"ENDEREÇO</label>
-                <input type="text" id="endereço">
-                <br>
-                <label type="data_nasc">DATA NASCIMENTO</label>
-                <input type="text" id="data_nasc">
-                <br>
-         <div>
-                <p> Eescreva outras informações</p>
-                <textarea cols="20px" rows="20px">
-         </div>
-                <label for="circulo-telefone">TELEFONE</label>
-                <input type="radio" name="circulo" value=""telefone" id="circulo-telefone"
-                <input type="submit" value="enviar erspostas">
-         </form>
- </body>
- </html>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <title></title>
+</head>
+<body>
+   <h1>FORMULÁRIO DE CADASTRO</h1>
+   <main>
+       <form>
+           <label for="nome">NOME</label>
+           <input type="text" id="nome" required>
+           <label for="end_email">EMAIL</label>
+           <input type="email" id="end_email" required>    
+           <label for="tfone">TELEFONE</label>
+           <input type="tel" id="tfone" required>   
+           <div>
+               <p>Desejar receber notícias?</p><input type="radio" >
+               <br>
+
+               <p>Marque aqui</p><input type="checkbox">
+               <br>
+
+               <input type="submit" value="ENVIAR">
+           </div>
+
+           <div>
+               <textarea cols="70" rows="15" required></textarea>
+           </div>
+       </form>
+   </main>
+</body>
+</html>
